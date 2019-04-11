@@ -1,3 +1,4 @@
+
 <?php
 // WordPress Titles
 add_theme_support( 'title-tag' );
@@ -54,3 +55,6 @@ function setting_github() { ?>
 <input type="text" name="github" id="github" value="<?php echo
 get_option('github'); ?>" />
 <?php }
+
+
+
